@@ -1,6 +1,6 @@
 Задание 1
-  '''pip install matplotlib ```
-  ``` pip show matplotlib ```
+```pip install matplotlib
+ pip show matplotlib ```
 Задание 2
   npm install express
   npm view express
