@@ -18,6 +18,7 @@ local students = [
 }
 
 ```
+
 ## **Задание 2**
 ```
 let Group = Text
