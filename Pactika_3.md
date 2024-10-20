@@ -1,5 +1,5 @@
 
-## **Задание 1**
+# **Задание 1**
 
 ```
 local groups = [std.format("ИКБО-%d-20", i) for i in std.range(1, 25)];
@@ -21,7 +21,7 @@ local students = [
 ![1](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-10-20_21-30-54.jpg)
 ![2](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-03.jpg)
 ![3](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-09.jpg)
-## **Задание 2**
+# **Задание 2**
 ```
 let Group = Text
 
@@ -69,8 +69,8 @@ in  data
 ```
 ![4](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-21.jpg)
 ![5](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-27.jpg)
-![5]()
-## **Задание 3/4/5**
+
+# **Задание 3/4/5**
 ```
 import random
 
@@ -115,9 +115,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-# Вывод задания 3
+## Вывод задания 3
 ![6](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-32.jpg)
-# Вывод задания 4
+## Вывод задания 4
 ![7](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-37.jpg)
-# Вывод задания 5
+## Вывод задания 5
 ![8](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-42.jpg)
