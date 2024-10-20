@@ -18,7 +18,7 @@ local students = [
 }
 
 ```
-![1]()
+![1](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-10-20_21-30-54.jpg)
 
 ## **Задание 2**
 ```
