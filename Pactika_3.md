@@ -64,6 +64,49 @@ let data =
 
 in  data
 ```
-## **Задание 3**
-## **Задание 4**
-## **Задание 5**
+## **Задание 3/4/5**
+```
+import random
+
+def parse_bnf(text):
+    ''' Преобразовать текстовую запись БНФ в словарь. '''
+    grammar = {}
+    rules = [line.split('=') for line in text.strip().split('\n')]
+    for name, body in rules:
+        grammar[name.strip()] = [alt.split() for alt in body.split('|')]
+    return grammar
+
+def generate_phrase(grammar, start):
+    ''' Сгенерировать случайную фразу. '''
+    if start in grammar:
+        seq = random.choice(grammar[start])
+        return ''.join([generate_phrase(grammar, name) for name in seq])
+    return str(start)
+
+def main():
+    #ЗАДАНИЕ 3
+    choice = input("Нажмите 3 для вывода BNF: ")
+    if choice == "3":
+        BNF = '''E = 0 | 1'''
+        print(BNF)
+        for i in range(10):
+            print(generate_phrase(parse_bnf(BNF), 'E'))
+    #ЗАДАНИЕ 4
+    choice = input("Нажмите 4 для вывода BNF: ")
+    if choice == "4":
+        BNF = '''E = E E | () | {}'''
+        print(BNF)
+        for i in range(10):
+            print(generate_phrase(parse_bnf(BNF), 'E'))
+    #ЗАДАНИЕ 5
+    choice = input("Нажмите 5 для вывода BNF: ")
+    if choice == "5":
+        BNF = '''E = E & E | E | E | ( E ) | ~ E | x | y'''
+        print(BNF)
+        for i in range(10):
+            print(generate_phrase(parse_bnf(BNF), 'E'))
+
+if __name__ == "__main__":
+    main()
+```
+
