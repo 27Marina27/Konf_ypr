@@ -123,8 +123,8 @@ if __name__ == "__main__":
     main()
 ```
 ## Вывод задания 3
-![6]()
+![6](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-27_21-58-41.jpg)
 ## Вывод задания 4
-![7]()
+![7](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-27_21-58-45.jpg)
 ## Вывод задания 5
-![8]()
+![8](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-27_21-58-48.jpg)
