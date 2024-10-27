@@ -85,39 +85,46 @@ def parse_bnf(text):
 def generate_phrase(grammar, start):
     ''' Сгенерировать случайную фразу. '''
     if start in grammar:
-        seq = random.choice(grammar[start])
-        return ''.join([generate_phrase(grammar, name) for name in seq])
+        seq = random.choice(grammar[start])  # случайный выбор варианта
+        return ''.join(generate_phrase(grammar, name) for name in seq)
     return str(start)
 
 def main():
-    #ЗАДАНИЕ 3
-    choice = input("Нажмите 3 для вывода BNF: ")
-    if choice == "3":
-        BNF = '''E = 0 | 1'''
-        print(BNF)
-        for i in range(10):
-            print(generate_phrase(parse_bnf(BNF), 'E'))
-    #ЗАДАНИЕ 4
-    choice = input("Нажмите 4 для вывода BNF: ")
-    if choice == "4":
-        BNF = '''E = E E | () | {}'''
-        print(BNF)
-        for i in range(10):
-            print(generate_phrase(parse_bnf(BNF), 'E'))
-    #ЗАДАНИЕ 5
-    choice = input("Нажмите 5 для вывода BNF: ")
-    if choice == "5":
-        BNF = '''E = E & E | E | E | ( E ) | ~ E | x | y'''
-        print(BNF)
-        for i in range(10):
-            print(generate_phrase(parse_bnf(BNF), 'E'))
+    while True:
+        choice = input("Введите задание (3, 4 или 5) для вывода BNF или 'q' для выхода: ")
+        # ЗАДАНИЕ 3
+        if choice == "3":
+            BNF = '''E = 0 | 1'''
+            print("\nBNF правило:")
+            print(BNF)
+            for i in range(10):
+                print(generate_phrase(parse_bnf(BNF), 'E'))
+        # ЗАДАНИЕ 4
+        elif choice == "4":
+            BNF = '''E = E E | () | {}'''
+            print("\nBNF правило:")
+            print(BNF)
+            for i in range(10):
+                print(generate_phrase(parse_bnf(BNF), 'E'))
+        # ЗАДАНИЕ 5
+        elif choice == "5":
+            BNF = '''E = E & E | E | E | ( E ) | ~ E | x | y'''
+            print("\nBNF правило:")
+            print(BNF)
+            for i in range(10):
+                print(generate_phrase(parse_bnf(BNF), 'E'))
+        elif choice.lower() == "q":
+            print("Выход...")
+            break
+        else:
+            print("Неправильный ввод. Попробуйте снова.")
 
 if __name__ == "__main__":
     main()
 ```
 ## Вывод задания 3
-![6](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-32.jpg)
+![6]()
 ## Вывод задания 4
-![7](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-37.jpg)
+![7]()
 ## Вывод задания 5
-![8](https://github.com/27Marina27/Konf_ypr/blob/main/%D0%BA%D0%BE%D0%BD%D1%84.%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/photo_2024-10-20_21-31-42.jpg)
+![8]()
