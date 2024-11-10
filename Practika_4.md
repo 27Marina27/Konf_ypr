@@ -23,4 +23,4 @@ git merge second
 git checkout aa912dd
 
 ```
-![1]()
+![1](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-11-10_16-33-34.jpg)
