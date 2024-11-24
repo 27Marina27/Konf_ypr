@@ -1,0 +1,7 @@
+<user name="Admin">
+    <credentials>
+        <username>admin</username>
+        <password>"secret"</password>
+    </credentials>
+    <role>superuser</role>
+</user>
