@@ -1,0 +1,1 @@
+<log><instruction command="LOAD" arg1="830" arg2="206" /><instruction command="READ" arg1="105" arg2="313" /><instruction command="WRITE" arg1="336" arg2="196" arg3="782" /><instruction command="MAX" arg1="72" arg2="595" arg3="758" /></log>
