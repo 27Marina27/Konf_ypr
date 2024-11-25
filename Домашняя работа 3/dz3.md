@@ -56,6 +56,6 @@
 примера описания конфигураций из разных предметных областей.
 
 # **Работа программы**
-![1](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-11-24_14-22-13.jpg)
-![2](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-11-24_14-22-19.jpg)
+![1](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-11-25_10-20-03.jpg)
+![2](https://github.com/27Marina27/Konf_ypr/blob/main/конф.управление/photo_2024-11-25_10-22-43.jpg)
 
